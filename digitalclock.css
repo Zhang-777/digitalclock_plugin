@@ -1,0 +1,15 @@
+body {
+  background-color: #121212;
+}
+
+@font-face {
+  font-family: 'ClockFont';
+  src: url('college.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+.digitalclock {
+position:absolute;
+  font-family: 'ClockFont';
+  color: #66ff99;
+  text-align: center;
+}
